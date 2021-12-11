@@ -10,7 +10,7 @@ Sample `translations.xls` input file:
 
 ## Sample output
 
-sample of generated `values-b+zh+CN` folder with  ```strings.xml```file:
+sample of generated folder and file:
 
 <p align="center">
   <img src="sample/generated_folder.png">
