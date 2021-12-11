@@ -27,7 +27,7 @@ enum class LocaleHeader(
 }
 
 fun main(args: Array<String>) {
-    val sheet = getSheet("translations.xlsx", 0)
+    val sheet = getSheet("sample/translations.xlsx", 0)
     val maps = generateMapValues(sheet)
     convertMapToXml(maps)
 }
