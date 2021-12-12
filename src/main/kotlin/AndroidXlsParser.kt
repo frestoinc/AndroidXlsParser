@@ -12,11 +12,11 @@ enum class LocaleHeader(
     val code: String
 ) {
     ENGLISH("English", "en"),
-    SIMPLIFIED_CHINESE_CHINA("Simplified Chinese", "zh-CN"),
-    TRADITIONAL_CHINESE_CHINA("Trad Chinese", "zh-TW"),
-    JAPANESE("Japanese", "ja-JP"),
-    KOREAN("Korean", "ko-KR"),
-    MALAY("Malay", "ms-MY");
+    SIMPLIFIED_CHINESE_CHINA("Simplified Chinese", "zh+CN"),
+    TRADITIONAL_CHINESE_CHINA("Trad Chinese", "zh+TW"),
+    JAPANESE("Japanese", "ja+JP"),
+    KOREAN("Korean", "ko+KR"),
+    MALAY("Malay", "ms+MY");
 
     companion object {
         fun String.toFolderName(): String {
